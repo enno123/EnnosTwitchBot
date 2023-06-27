@@ -9,20 +9,28 @@ Ein Twitch Bot zum selbst Hosten mit NodeJS und MySQL
 
 - Commands mit !
 - Commands für Moderatoren
-- Ein Counter zum hochzählen
-- soonTM
+- Ein Counter zum hochzählen mit Datenbank anbindung
+- more soonTM
 
 
 ## Installation
 
 Du benötigst
 ```bash
+Eine MariaDB Datenbank
 npm install mysql
 npm install tmi.js
 npm install pm2 -g
 ```
+MariaDB Datenbank erstellung
+```bash
+Erstelle eine neue Datenbank mit Wunsch Namen z.B. Twitch Bot
+Erstelle eine Tabelle mit dem Namen count_table
+Erstelle zwei Spalten eine mit dem Namen id und eine mit count
+```
 
-Zum ausführen
+
+Bot starten
 ```bash
 pm2 --name WunschName start node . 
 ```
