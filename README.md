@@ -1,7 +1,7 @@
 
 # Ennos Stream Bot
 
-Ein Twitch Bot zum selbst Hosten mit NodeJS und MySQL
+Ein Twitch Bot zum selbst Hosten mit NodeJS und MariaDB
 
 
 
@@ -18,8 +18,8 @@ Ein Twitch Bot zum selbst Hosten mit NodeJS und MySQL
 Du benötigst
 ```bash
 Eine MariaDB Datenbank
-npm install mysql
 npm install tmi.js
+npm install mysql
 npm install pm2 -g
 ```
 MariaDB Datenbank erstellung
