@@ -1,5 +1,5 @@
 
-# Ennos Stream Bot
+# Ennos Twitch Stream Bot
 
 Ein Twitch Bot zum selbst Hosten mit NodeJS und MariaDB
 
